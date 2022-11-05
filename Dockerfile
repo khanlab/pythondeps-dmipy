@@ -3,4 +3,4 @@ MAINTAINER <ali.khan@uwo.ca>
 
 COPY . .
 
-RUN pip install --no-cache-dir .
+RUN apt-get install -y gcc gfortran python-dev libopenblas-dev liblapack-dev cython && pip install --no-cache-dir . && apt-get clean
