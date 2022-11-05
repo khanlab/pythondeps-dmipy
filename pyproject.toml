@@ -6,12 +6,7 @@ authors = ["Ali Khan <alik@robarts.ca>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-matplotlib = "^3.5.2"
-nibabel = "^3.2.2"
-numpy = "^1.22.3"
-templateflow = "^0.8.1"
-PyPDF2 = "^1.27.12"
-nilearn = "^0.9.1"
+dmipy = "^1.0.5"
 
 [tool.poetry.dev-dependencies]
 
